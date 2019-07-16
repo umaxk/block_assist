@@ -4,7 +4,7 @@
  * @author umaxk <umaxk@tutanota.com>
  * @copyright 2019 umaxk
  * To work with the assistant, attach a file or add it to the auto-loader.
- * use block_assist;
+ * use BlockAssist;
  */
 CModule::IncludeModule('main');
 CModule::IncludeModule('iblock');
@@ -13,7 +13,7 @@ CModule::IncludeModule('highloadblock');
 use Bitrix\Highloadblock as HL;
 use Bitrix\Main\Entity;
 
-trait blockAssist {
+trait BlockAssist {
     /**
      * Receive data from the information block
      * @param int $ib Iblock number

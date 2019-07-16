@@ -4,13 +4,13 @@
  * @author umaxk <umaxk@tutanota.com>
  * @copyright 2019 umaxk
  * To work with the assistant, attach a file or add it to the auto-loader.
- * blockAssistC::method($params...);
+ * BlockAssistC::method($params...);
  */
 
-require_once 'blockAssist.php';
+require_once 'BlockAssist.php';
 
-final class blockAssistC {
-    use blockAssist;
+final class BlockAssistC {
+    use BlockAssist;
 }
 
 
