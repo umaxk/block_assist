@@ -20,10 +20,11 @@ trait BlockAssist {
      * @param string[] $fields field of the Iblock
      * @param string[] $param advanced setting
      * @param string[] $sort sort options
+     * @param bollor string[] navigation options
      * @param string $active Active entries 'Y'|'N'
      * @return string[] data on request
      */
-    function getIB ($ib, $fields, $param = [], $sort = [], $active = 'Y') {
+    function getIB ($ib, $fields, $param = [], $sort = [], $nav = false, $active = 'Y') {
         $data = [];
         $standart_param = [
             'IBLOCK_ID' => (int)$ib,
