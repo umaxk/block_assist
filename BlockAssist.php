@@ -39,7 +39,7 @@ trait BlockAssist {
             (array)$sort,
             (array)$standart_param,
             false,
-            false,
+            $nav,
             (array)$fields
         );
 
